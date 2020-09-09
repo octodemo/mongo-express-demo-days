@@ -1,0 +1,18 @@
+# name: "All the goodness from lgtm.com"
+
+# disable-default-queries: false
+
+# queries:
+#   - uses: security-and-quality # same as the lgtm-full suite
+#   - uses: Semmle/ql/javascript/ql/src/Performance@lgtm.com
+#   - uses: Semmle/ql/javascript/ql/src/Metrics@lgtm.com
+
+# name: "My CodeQL config"
+
+#   disable-default-queries: true
+  
+#   queries:
+#     - uses: security-and-quality # same as the lgtm-full suite
+#     - name: External Javascript QL performance pack (Runs a QL pack located in an external repo)
+#       uses: Semmle/ql/javascript/ql/src/Performance@master
+  
