@@ -3,6 +3,7 @@ name: "All the goodness from code scanning"
 disable-default-queries: false
 
 queries:
-  - uses: security-and-quality # full set
   - uses: Semmle/ql/javascript/ql/src/Performance@lgtm.com
   - uses: Semmle/ql/javascript/ql/src/Metrics@lgtm.com
+
+#  - uses: security-and-quality # full set
